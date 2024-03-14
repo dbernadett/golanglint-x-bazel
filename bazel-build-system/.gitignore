@@ -2,3 +2,7 @@ bazel-out
 bazel-bin
 bazel-testlogs
 bazel-bazel-build-system
+bazel-out/
+bazel-bin/
+bazel-testlogs/
+bazel-bazel-build-system/
