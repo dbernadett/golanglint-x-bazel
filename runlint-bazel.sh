@@ -3,4 +3,9 @@ export GOPACKAGESDRIVER=$(realpath bazel-bin/external/io_bazel_rules_go/go/tools
 echo "$GOPACKAGESDRIVER"
 export GOPACKAGESDRIVER_BAZEL_QUERY_SCOPE=//src/...
 echo "$GOPACKAGESDRIVER_BAZEL_QUERY_SCOPE"
-golangci-lint run src/gopher/gopher.go
+
+#Has no output
+golangci-lint run bazel-build-system/src/gopher/gopher.go
+
+#Produces error about no main module
+golangci-lint run
