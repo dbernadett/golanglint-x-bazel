@@ -1,1 +1,0 @@
-bazel run //bazel-build-system/src:hello_go
