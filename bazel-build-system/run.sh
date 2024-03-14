@@ -1,0 +1,1 @@
+bazel run //src:hello_go
